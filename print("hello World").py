@@ -6,7 +6,12 @@ def begruesse_nutzer():
     name = input("Gib deinen Namen ein: ")
     
     # Persönliche Begrüßung ausgeben
-    print("Hallo, " + name + "! Willkommen zur Programmierung mit Python.")
+    alter = input("Gib dein Alter ein: ")
+    
+    # Persönliche Begrüßung mit Altersangabe ausgeben
+    print("Hallo, " + name + "! Du bist " + alter + " Jahre alt. Willkommen zur Programmierung mit Python.")
+
+    print("was willst du eigentlich hier")
 
 # Funktion aufrufen, um den Benutzer zu begrüßen
 begruesse_nutzer()

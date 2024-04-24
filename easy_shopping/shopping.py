@@ -43,14 +43,6 @@ class Item:
         self.quantity = quantity
 
 
-# testing classes and Functions
-
-spadacard = Shopping_card()
-spadacard.add_item("Birne", 10)
-spadacard.add_item("Apfel", 9)
-spadacard.add_item("Mango", 4)
-spadacard.display_card()
-spadacard.remove_item("Apfel")
 
 
     
